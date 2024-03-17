@@ -1,31 +1,34 @@
+## House Price Prediction Model Repository Overview
+This repository presents a House Price Prediction model crafted in Python, encompassing essential stages like data preprocessing, model building employing Ridge regression, and the integration of a web-based interface with Flask.
 
-# House Price Prediction Model
-This repository contains a simple House Price Prediction model implemented using Python. The project follows a structured process, including data cleaning, model development using Ridge regression, and the creation of a web-based user interface using Flask.
+## Core Elements
+# Data Cleaning: 
+Employing a dataset sourced from Kaggle (Seattle House Price Prediction), the model undergoes meticulous data cleaning. This involves managing missing values, handling categorical data, and executing necessary preprocessing steps.
 
-Key Components
-## Data Cleaning: The model utilizes a dataset from Kaggle (Seattle House Price Prediction). The dataset undergoes cleaning to handle missing values, categorical data, and other preprocessing steps.
+# Model Development: 
+Utilizing Ridge regression through the scikit-learn library, the machine learning model is developed. It undergoes training and validation, with the resultant model being persisted for future usage.
 
-## Model Development: The machine learning model is implemented using Ridge regression, leveraging the scikit-learn library. The trained model is saved for later use.
+# Flask Web Application: 
+The project is furnished with a Flask-powered web application, facilitating an intuitive interface for predicting house prices. End-users can input pertinent details such as bedroom count, bathroom count, house size, and zip code to obtain a tailored price prediction.
 
-## Flask Web Application: The project incorporates a Flask web application, providing a user-friendly interface for predicting house prices. Users can input details such as the number of bedrooms, bathrooms, house size, and zip code to receive a price prediction.
 
-Usage
-Clone the repository:
+#Usage:
 
-git clone https://github.com/yourusername/HousePrice_Prediction.git
+1. Clone the repository:
+
+git clone https://github.com/sm-sourabh/HousePrice_Prediction
 cd HousePrice_Prediction
 
-Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt
 
-Run the Flask application:
-
+3. Run the Flask application:
 
 python main.py
 
 Open your web browser and visit http://127.0.0.1:5000/ to interact with the House Price Prediction interface.
 
-Datasets Used
+# Datasets Used
 Seattle House Price Prediction Dataset [Kaggle]
 Feel free to explore and adapt the project for your own use. If you have any questions or suggestions, please create an issue or reach out to yourusername. Happy coding!
